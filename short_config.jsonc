@@ -23,7 +23,7 @@
     },
     {
       "type": "os",
-      "key": "{#separator}{#yellow}│{#keys}{#38;2;0;0;0}󰍹 OS",
+      "key": "{#separator}{#yellow}│{#keys}{#38;2;0;0;0} OS",
       "outputColor": "38;2;255;255;255"
     },
     {
@@ -44,6 +44,12 @@
     {
       "type": "custom",
       "format": "{#1}{#yellow}│{#}{#38;2;203;0;0}Hardware Information"
+    },
+     {
+      "type": "host",
+      "key": "{#separator}{#yellow}│{#keys}{#38;2;203;0;0}󰍹 PC",
+      "outputColor": "38;2;255;255;255",
+      "format": "{~0,30}"
     },
     {
       "type": "cpu",
